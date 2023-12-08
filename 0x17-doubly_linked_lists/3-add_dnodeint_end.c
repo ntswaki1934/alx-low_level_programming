@@ -50,8 +50,5 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	last->next = new;
 	/*Set the previous pointer of the new node to the last node.*/
 	new->prev = last;
-
-
-	/*Return the address of the new node.*/
 	return (new);
 }
